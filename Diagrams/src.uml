@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>G:/Java_Project/GroupH_DC/GroupH_DigitalCookbook/src</OriginalElement>
+  <nodes>
+    <node x="1652.7557925156168" y="1024.5703264193246">model.SearchPageModel</node>
+    <node x="2650.589725729377" y="1815.9930337959784">controller.HomePageController</node>
+    <node x="-25.62450428087749" y="2364.860191496244">util.MyEventHandler.SingletonInstance</node>
+    <node x="3477.331144779285" y="621.8401807572307">controller.CreateRecipePageController</node>
+    <node x="2050.5170915869253" y="1284.8662454230252">view.components.ManageRecipeSummaryPane</node>
+    <node x="1151.4345031345074" y="2129.8396409535044">model.ModifyRecipePageModel</node>
+    <node x="963.648954569741" y="2149.919976731581">util.UUIDUtils</node>
+    <node x="2394.9334907569373" y="1253.86913639316">controller.ManagePageController</node>
+    <node x="4522.698342973263" y="47.95897968995227">constant.UpdateEventBase</node>
+    <node x="3330.1628889976123" y="2010.1128570272078">util.SceneManager.SingletonInstance</node>
+    <node x="1660.7687665459325" y="1416.56561091595">view.majorView.SearchPageView</node>
+    <node x="525.3627170419384" y="2094.973448788692">app.Main</node>
+    <node x="4621.683759125579" y="296.9558964046476">view.components.TitlePane</node>
+    <node x="900.2796814690854" y="1280.5581520842823">view.components.RecipeSummaryPane</node>
+    <node x="1197.1494498491336" y="1272.8205322638105">controller.ViewRecipePageController</node>
+    <node x="749.7765580967177" y="2125.073273095403">app.App</node>
+    <node x="-108.56266310849821" y="2141.5124132569013">util.MyEventHandler</node>
+    <node x="2964.2646708261036" y="1430.3770967627036">model.HomePageModel</node>
+    <node x="1504.3751079544816" y="585.3391279543556">entities.Recipe</node>
+    <node x="2912.7717868731966" y="212.56254297195176">model.RecipeModel</node>
+    <node x="2422.8583239468653" y="1403.4688080675073">view.majorView.ManagePageView</node>
+    <node x="1534.8144041731357" y="1261.564175555124">controller.SearchPageController</node>
+    <node x="2887.903743165591" y="1591.7645112932162">view.majorView.HomePageView</node>
+    <node x="191.45549843998094" y="927.2553767736506">util.DatabaseUtils</node>
+    <node x="953.2871649733057" y="1036.826794777278">view.majorView.ViewRecipePageView</node>
+    <node x="654.1011861103476" y="1002.0725648895636">test.DatabaseUtilsTest</node>
+    <node x="4279.139451170349" y="310.8842067392386">constant.UpdateSearchEvent</node>
+    <node x="1260.9032939803542" y="1039.2361718217103">model.ViewRecipePageModel</node>
+    <node x="2948.996519595851" y="632.315132512426">controller.ModifyRecipePageController</node>
+    <node x="194.51949597130502" y="2096.7674474193113">constant.DataBaseFieldEnum</node>
+    <node x="2333.0721018883432" y="1040.7829633117817">model.ManagePageModel</node>
+    <node x="3266.999244159037" y="1735.876377584586">util.SceneManager</node>
+    <node x="3291.321717152451" y="994.913526099748">view.majorView.CreateRecipePageView</node>
+    <node x="-151.01997275743793" y="1003.6805142348023">util.Utils</node>
+    <node x="3936.698920869323" y="229.52479229467815">constant.UpdateManageEvent</node>
+    <node x="3139.1862585770386" y="-13.301166094744062">view.components.IngredientAddPane</node>
+    <node x="1100.4897956844766" y="292.55408455081954">entities.Ingredient</node>
+    <node x="2905.481233228198" y="1017.0330513762631">view.majorView.ModifyRecipePageView</node>
+    <node x="476.84030002050264" y="1248.0708352144845">util.DatabaseUtils.SingleInstance</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.majorView.SearchPageView" target="controller.SearchPageController" relationship="CREATE">
+      <point x="11.045637627203178" y="-56.5" />
+      <point x="15.0" y="44.5" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="model.RecipeModel" relationship="CREATE">
+      <point x="-2.3322819788518245E-4" y="-44.50005137626306" />
+      <point x="3030.981" y="996.0" />
+      <point x="2916.497" y="996.0" />
+      <point x="-158.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="view.majorView.ManagePageView" target="model.ManagePageModel" relationship="TO_ONE">
+      <point x="-95.50032394686514" y="1.9193249272575486E-4" />
+      <point x="2365.0" y="1471.969" />
+      <point x="2365.0" y="1236.369" />
+      <point x="2455.572" y="1236.369" />
+      <point x="14.999898111656876" y="44.50003668821819" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="constant.UpdateManageEvent" relationship="CREATE">
+      <point x="4.804041486750066E-4" y="-80.50013251242592" />
+      <point x="3182.997" y="582.0" />
+      <point x="3448.0" y="582.0" />
+      <point x="3448.0" y="274.025" />
+      <point x="-140.99992086932298" y="2.07705321827234E-4" />
+    </edge>
+    <edge source="model.SearchPageModel" target="entities.Recipe" relationship="TO_MANY">
+      <point x="2.0748438328155316E-4" y="44.499673580675335" />
+      <point x="1760.256" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="view.components.IngredientAddPane" relationship="CREATE">
+      <point x="-233.0001447792847" y="-15.000180757230623" />
+      <point x="3433.0" y="687.34" />
+      <point x="3433.0" y="68.199" />
+      <point x="106.4997414229615" y="1.6609474405981928E-4" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="controller.ModifyRecipePageController" relationship="CREATE">
+      <point x="-15.000233228197885" y="-44.5" />
+      <point x="-167.01551959585095" y="80.5" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="view.components.TitlePane" relationship="CREATE">
+      <point x="234.00048040414868" y="-1.3251242592104973E-4" />
+      <point x="3448.0" y="712.815" />
+      <point x="3448.0" y="604.34" />
+      <point x="3960.831" y="604.34" />
+      <point x="3960.831" y="589.34" />
+      <point x="4697.184" y="589.34" />
+      <point x="2.408744212516467E-4" y="44.500103595352414" />
+    </edge>
+    <edge source="view.majorView.CreateRecipePageView" target="model.RecipeModel" relationship="CREATE">
+      <point x="-114.49971715245101" y="22.119473900251933" />
+      <point x="3239.0" y="1061.533" />
+      <point x="3239.0" y="996.0" />
+      <point x="2916.497" y="996.0" />
+      <point x="-158.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="view.majorView.ManagePageView" relationship="CREATE">
+      <point x="0.0" y="-44.5" />
+      <point x="2973.903743165591" y="1510.8770967627036" />
+      <point x="95.5" y="38.908288695196234" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="constant.UpdateSearchEvent" relationship="CREATE">
+      <point x="44.66885522071516" y="-80.50018075723062" />
+      <point x="3755.0" y="502.0" />
+      <point x="4420.139" y="502.0" />
+      <point x="-4.5117034915165277E-4" y="44.49979326076141" />
+    </edge>
+    <edge source="controller.HomePageController" target="model.HomePageModel" relationship="TO_ONE">
+      <point x="203.00027427062332" y="-3.379597842467774E-5" />
+      <point x="3119.0" y="1847.493" />
+      <point x="3119.0" y="1532.969" />
+      <point x="3052.404" y="1532.969" />
+      <point x="-2.8606708261036147" y="31.499903237296394" />
+    </edge>
+    <edge source="view.majorView.SearchPageView" target="model.SearchPageModel" relationship="CREATE">
+      <point x="-90.0" y="-15.0" />
+      <point x="1517.3144041731357" y="1458.06561091595" />
+      <point x="1517.3144041731357" y="1069.0703264193246" />
+      <point x="-107.5" y="0.0" />
+    </edge>
+    <edge source="view.majorView.ManagePageView" target="controller.ManagePageController" relationship="TO_ONE">
+      <point x="88.0" y="-68.5" />
+      <point x="-11.075166810072005" y="44.5" />
+    </edge>
+    <edge source="controller.ManagePageController" target="view.majorView.ManagePageView" relationship="TO_ONE">
+      <point x="-84.075166810072" y="44.5" />
+      <point x="15.0" y="-68.5" />
+    </edge>
+    <edge source="model.RecipeModel" target="view.components.IngredientAddPane" relationship="TO_MANY">
+      <point x="154.5" y="-104.5" />
+      <point x="-16.414471703842082" y="81.49999999999999" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="view.components.IngredientAddPane" relationship="CREATE">
+      <point x="-125.50023322819789" y="-5.137626317264221E-5" />
+      <point x="2832.433" y="1061.533" />
+      <point x="2832.433" y="-30.801000000000002" />
+      <point x="3433.0" y="-30.801000000000002" />
+      <point x="3433.0" y="68.199" />
+      <point x="106.4997414229615" y="1.6609474405981928E-4" />
+    </edge>
+    <edge source="util.SceneManager.SingletonInstance" target="util.SceneManager" relationship="TO_ONE">
+      <point x="15.0" y="-31.5" />
+      <point x="66.16364483857524" y="105.5" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="model.RecipeModel" relationship="TO_ONE">
+      <point x="125.49976677180211" y="-5.137626317264221E-5" />
+      <point x="3224.0" y="1061.533" />
+      <point x="3224.0" y="973.0" />
+      <point x="2931.497" y="973.0" />
+      <point x="-143.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="controller.ViewRecipePageController" target="model.ViewRecipePageModel" relationship="TO_ONE">
+      <point x="48.7538441312206" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="view.components.RecipeSummaryPane" target="entities.Recipe" relationship="TO_ONE">
+      <point x="3.185309145692372E-4" y="-44.50015208428226" />
+      <point x="1017.28" y="1202.0" />
+      <point x="2028.5" y="1202.0" />
+      <point x="2028.5" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="util.DatabaseUtils.SingleInstance" target="util.DatabaseUtils" relationship="INNER_CLASS">
+      <point x="0.0" y="-31.5" />
+      <point x="166.8848015805217" y="117.5" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="model.HomePageModel" relationship="CREATE">
+      <point x="15.0" y="-44.5" />
+      <point x="-66.36092766051252" y="31.5" />
+    </edge>
+    <edge source="util.MyEventHandler.SingletonInstance" target="util.MyEventHandler" relationship="CREATE">
+      <point x="0.0" y="-31.5" />
+      <point x="58.438158827620725" y="81.5" />
+    </edge>
+    <edge source="entities.Recipe" target="entities.Ingredient" relationship="TO_MANY">
+      <point x="0.0" y="-140.5" />
+      <point x="1708.8751079544816" y="349.05408455081954" />
+      <point x="104.0" y="0.0" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="view.majorView.CreateRecipePageView" relationship="TO_ONE">
+      <point x="-225.5" y="80.5" />
+      <point x="79.00942762683371" y="-44.5" />
+    </edge>
+    <edge source="test.DatabaseUtilsTest" target="entities.Recipe" relationship="CREATE">
+      <point x="14.999813889652387" y="-68.49956488956366" />
+      <point x="766.101" y="897.0" />
+      <point x="1708.875" y="897.0" />
+      <point x="-1.0795448156386556E-4" y="140.49987204564445" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="constant.UpdateManageEvent" relationship="CREATE">
+      <point x="-1.4477928471023915E-4" y="-80.50018075723062" />
+      <point x="3710.331" y="582.0" />
+      <point x="3448.0" y="582.0" />
+      <point x="3448.0" y="274.025" />
+      <point x="-140.99992086932298" y="2.07705321827234E-4" />
+    </edge>
+    <edge source="view.majorView.CreateRecipePageView" target="controller.CreateRecipePageController" relationship="TO_ONE">
+      <point x="94.00942762683371" y="-44.5" />
+      <point x="-210.5" y="80.5" />
+    </edge>
+    <edge source="view.majorView.CreateRecipePageView" target="controller.CreateRecipePageController" relationship="CREATE">
+      <point x="114.5" y="-14.999526099747982" />
+      <point x="3725.331" y="1024.414" />
+      <point x="14.99985522071529" y="80.5" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="constant.UpdateSearchEvent" relationship="CREATE">
+      <point x="-14.999519595851325" y="-80.50013251242592" />
+      <point x="3167.997" y="502.0" />
+      <point x="4420.139" y="502.0" />
+      <point x="-4.5117034915165277E-4" y="44.49979326076141" />
+    </edge>
+    <edge source="view.majorView.ManagePageView" target="controller.ManagePageController" relationship="CREATE">
+      <point x="0.0" y="-68.5" />
+      <point x="-99.075166810072" y="44.5" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="view.majorView.CreateRecipePageView" relationship="CREATE">
+      <point x="86.0" y="-14.999511293216074" />
+      <point x="3405.821717152451" y="1621.265" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="util.SceneManager.SingletonInstance" target="util.SceneManager" relationship="INNER_CLASS">
+      <point x="0.0" y="-31.5" />
+      <point x="51.16364483857524" y="105.5" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="model.HomePageModel" relationship="TO_ONE">
+      <point x="86.0002568344089" y="4.887067839263182E-4" />
+      <point x="3119.0" y="1636.265" />
+      <point x="3119.0" y="1532.969" />
+      <point x="3052.404" y="1532.969" />
+      <point x="-2.8606708261036147" y="31.499903237296394" />
+    </edge>
+    <edge source="view.majorView.CreateRecipePageView" target="model.RecipeModel" relationship="TO_ONE">
+      <point x="-114.49971715245101" y="4.739002520182112E-4" />
+      <point x="3224.0" y="1039.414" />
+      <point x="3224.0" y="973.0" />
+      <point x="2931.497" y="973.0" />
+      <point x="-143.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="util.MyEventHandler.SingletonInstance" target="util.MyEventHandler" relationship="INNER_CLASS">
+      <point x="-58.438158827620725" y="-31.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="util.MyEventHandler.SingletonInstance" target="util.MyEventHandler" relationship="TO_ONE">
+      <point x="15.0" y="-31.5" />
+      <point x="73.43815882762073" y="81.5" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="view.components.TitlePane" relationship="CREATE">
+      <point x="-233.0001447792847" y="-1.807572306233851E-4" />
+      <point x="3448.0" y="702.34" />
+      <point x="3448.0" y="604.34" />
+      <point x="3960.831" y="604.34" />
+      <point x="3960.831" y="589.34" />
+      <point x="4697.184" y="589.34" />
+      <point x="2.408744212516467E-4" y="44.500103595352414" />
+    </edge>
+    <edge source="util.Utils" target="entities.Ingredient" relationship="CREATE">
+      <point x="-2.724256206931841E-5" y="-93.49951423480229" />
+      <point x="-10.019999999999996" y="667.0" />
+      <point x="1204.49" y="667.0" />
+      <point x="2.0431552343325166E-4" y="56.499915449180435" />
+    </edge>
+    <edge source="view.majorView.SearchPageView" target="model.SearchPageModel" relationship="TO_ONE">
+      <point x="90.00023345406748" y="3.890840500844206E-4" />
+      <point x="2028.5" y="1473.066" />
+      <point x="2028.5" y="1217.0" />
+      <point x="1929.0" y="1217.0" />
+      <point x="1929.0" y="1069.07" />
+      <point x="107.50020748438328" y="-3.264193246650393E-4" />
+    </edge>
+    <edge source="util.SceneManager" target="view.majorView.HomePageView" relationship="CREATE">
+      <point x="0.0" y="-105.5" />
+      <point x="3374.499244159037" y="1651.265" />
+      <point x="86.0" y="15.000488706783926" />
+    </edge>
+    <edge source="util.SceneManager.SingletonInstance" target="util.SceneManager" relationship="CREATE">
+      <point x="-51.16364483857524" y="-31.5" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="controller.ManagePageController" target="model.ManagePageModel" relationship="TO_ONE">
+      <point x="-222.50049075693732" y="-1.3639316011904157E-4" />
+      <point x="2365.0" y="1298.369" />
+      <point x="2365.0" y="1236.369" />
+      <point x="2455.572" y="1236.369" />
+      <point x="14.999898111656876" y="44.50003668821819" />
+    </edge>
+    <edge source="constant.UpdateManageEvent" target="constant.UpdateEventBase" relationship="GENERALIZATION">
+      <point x="7.913067702247645E-5" y="-44.499792294678144" />
+      <point x="4077.699" y="184.0" />
+      <point x="4670.198" y="184.0" />
+      <point x="-3.429732623771997E-4" y="44.50002031004773" />
+    </edge>
+    <edge source="util.DatabaseUtils" target="entities.Recipe" relationship="CREATE">
+      <point x="14.999501560019041" y="-117.5003767736506" />
+      <point x="407.455" y="897.0" />
+      <point x="1708.875" y="897.0" />
+      <point x="-1.0795448156386556E-4" y="140.49987204564445" />
+    </edge>
+    <edge source="util.DatabaseUtils.SingleInstance" target="util.DatabaseUtils" relationship="TO_ONE">
+      <point x="-15.0" y="-31.5" />
+      <point x="151.8848015805217" y="117.5" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="view.majorView.SearchPageView" relationship="CREATE">
+      <point x="-86.0" y="0.0" />
+      <point x="1750.7687665459325" y="1636.2645112932162" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="controller.SearchPageController" target="model.SearchPageModel" relationship="TO_ONE">
+      <point x="-1.5584041731356137" y="-44.50017555512386" />
+      <point x="1745.256" y="1217.0" />
+      <point x="1929.0" y="1217.0" />
+      <point x="1929.0" y="1069.07" />
+      <point x="107.50020748438328" y="-3.264193246650393E-4" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="controller.HomePageController" relationship="TO_ONE">
+      <point x="0.0" y="44.5" />
+      <point x="120.31401743621427" y="-31.5" />
+    </edge>
+    <edge source="controller.HomePageController" target="view.majorView.HomePageView" relationship="TO_ONE">
+      <point x="135.31401743621427" y="-31.5" />
+      <point x="15.0" y="44.5" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="model.RecipeModel" relationship="TO_ONE">
+      <point x="4.804041486750066E-4" y="80.49986748757408" />
+      <point x="3182.997" y="973.0" />
+      <point x="2931.497" y="973.0" />
+      <point x="-143.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="view.majorView.ManagePageView" target="model.ManagePageModel" relationship="CREATE">
+      <point x="95.5" y="0.0" />
+      <point x="2857.4334907569373" y="1471.9688080675073" />
+      <point x="2857.4334907569373" y="1085.2829633117817" />
+      <point x="107.5" y="0.0" />
+    </edge>
+    <edge source="view.majorView.ManagePageView" target="view.components.ManageRecipeSummaryPane" relationship="CREATE">
+      <point x="-95.5" y="16.097191932492706" />
+      <point x="2192.5170915869253" y="1488.066" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="test.DatabaseUtilsTest" target="entities.Ingredient" relationship="CREATE">
+      <point x="-1.8611034761306655E-4" y="-68.49956488956366" />
+      <point x="751.101" y="667.0" />
+      <point x="1204.49" y="667.0" />
+      <point x="2.0431552343325166E-4" y="56.499915449180435" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="entities.Recipe" relationship="TO_ONE">
+      <point x="-2.3322819788518245E-4" y="44.49994862373683" />
+      <point x="3030.981" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="constant.UpdateSearchEvent" target="constant.UpdateEventBase" relationship="GENERALIZATION">
+      <point x="-4.5117034915165277E-4" y="-44.50020673923859" />
+      <point x="4420.139" y="184.0" />
+      <point x="4670.198" y="184.0" />
+      <point x="-3.429732623771997E-4" y="44.50002031004773" />
+    </edge>
+    <edge source="model.ManagePageModel" target="entities.Recipe" relationship="TO_MANY">
+      <point x="-1.0188834312430117E-4" y="44.50003668821819" />
+      <point x="2440.572" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="view.majorView.SearchPageView" target="controller.SearchPageController" relationship="TO_ONE">
+      <point x="-3.9543623727968225" y="-56.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="view.components.TitlePane" relationship="CREATE">
+      <point x="125.49976677180211" y="39.88094862373691" />
+      <point x="3960.831" y="1101.414" />
+      <point x="3960.831" y="589.34" />
+      <point x="4697.184" y="589.34" />
+      <point x="2.408744212516467E-4" y="44.500103595352414" />
+    </edge>
+    <edge source="view.components.ManageRecipeSummaryPane" target="entities.Recipe" relationship="TO_ONE">
+      <point x="-9.15869254640711E-5" y="-31.500245423025262" />
+      <point x="2192.517" y="1202.0" />
+      <point x="2028.5" y="1202.0" />
+      <point x="2028.5" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="controller.SearchPageController" target="view.majorView.SearchPageView" relationship="TO_ONE">
+      <point x="-15.0" y="44.5" />
+      <point x="-18.954362372796822" y="-56.5" />
+    </edge>
+    <edge source="util.DatabaseUtils.SingleInstance" target="util.DatabaseUtils" relationship="CREATE">
+      <point x="15.0" y="-31.5" />
+      <point x="181.8848015805217" y="117.5" />
+    </edge>
+    <edge source="util.Utils" target="entities.Recipe" relationship="CREATE">
+      <point x="14.99997275743793" y="-93.49951423480229" />
+      <point x="4.980000000000004" y="897.0" />
+      <point x="1708.875" y="897.0" />
+      <point x="-1.0795448156386556E-4" y="140.49987204564445" />
+    </edge>
+    <edge source="view.components.RecipeSummaryPane" target="view.majorView.ViewRecipePageView" relationship="CREATE">
+      <point x="-14.99968146908543" y="-44.5" />
+      <point x="-74.50716497330575" y="56.5" />
+    </edge>
+    <edge source="controller.CreateRecipePageController" target="model.RecipeModel" relationship="TO_ONE">
+      <point x="-1.4477928471023915E-4" y="80.49981924276938" />
+      <point x="3710.331" y="973.0" />
+      <point x="2931.497" y="973.0" />
+      <point x="-143.27478687319672" y="104.50045702804823" />
+    </edge>
+    <edge source="view.majorView.CreateRecipePageView" target="view.components.TitlePane" relationship="CREATE">
+      <point x="114.50028284754899" y="4.739002520182112E-4" />
+      <point x="3960.831" y="1039.414" />
+      <point x="3960.831" y="589.34" />
+      <point x="4697.184" y="589.34" />
+      <point x="2.408744212516467E-4" y="44.500103595352414" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="view.components.IngredientAddPane" relationship="CREATE">
+      <point x="234.00048040414868" y="14.999867487574079" />
+      <point x="3433.0" y="727.815" />
+      <point x="3433.0" y="68.199" />
+      <point x="106.4997414229615" y="1.6609474405981928E-4" />
+    </edge>
+    <edge source="controller.ViewRecipePageController" target="view.majorView.ViewRecipePageView" relationship="TO_ONE">
+      <point x="-81.2461558687794" y="-31.5" />
+      <point x="1243.4032939803542" y="1093.326794777278" />
+      <point x="123.49999999999989" y="0.0" />
+    </edge>
+    <edge source="view.majorView.HomePageView" target="controller.HomePageController" relationship="CREATE">
+      <point x="-15.0" y="44.5" />
+      <point x="105.31401743621427" y="-31.5" />
+    </edge>
+    <edge source="view.majorView.SearchPageView" target="view.components.RecipeSummaryPane" relationship="CREATE">
+      <point x="-90.0" y="0.0" />
+      <point x="1017.2796814690854" y="1473.06561091595" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="view.majorView.ViewRecipePageView" target="entities.Recipe" relationship="TO_ONE">
+      <point x="-1.6497330568654434E-4" y="56.50020522272189" />
+      <point x="1076.787" y="1202.0" />
+      <point x="2028.5" y="1202.0" />
+      <point x="2028.5" y="1155.0" />
+      <point x="1635.256" y="1155.0" />
+      <point x="-73.61910795448148" y="140.49987204564445" />
+    </edge>
+    <edge source="util.DatabaseUtils" target="entities.Ingredient" relationship="CREATE">
+      <point x="-4.984399809586648E-4" y="-117.5003767736506" />
+      <point x="392.455" y="667.0" />
+      <point x="1204.49" y="667.0" />
+      <point x="2.0431552343325166E-4" y="56.499915449180435" />
+    </edge>
+    <edge source="view.components.ManageRecipeSummaryPane" target="view.majorView.ModifyRecipePageView" relationship="CREATE">
+      <point x="14.999908413074536" y="-31.5" />
+      <point x="2207.517" y="1179.7553767736506" />
+      <point x="3045.981" y="1179.7553767736506" />
+      <point x="14.999766771802115" y="44.5" />
+    </edge>
+    <edge source="controller.ModifyRecipePageController" target="view.majorView.ModifyRecipePageView" relationship="TO_ONE">
+      <point x="-137.01551959585095" y="80.5" />
+      <point x="14.999766771802115" y="-44.5" />
+    </edge>
+    <edge source="view.majorView.ModifyRecipePageView" target="controller.ModifyRecipePageController" relationship="TO_ONE">
+      <point x="29.999766771802115" y="-44.5" />
+      <point x="-122.01551959585095" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4762650300601204" showDependencies="true" x="1339.3571334648263" y="1863.597435897437" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

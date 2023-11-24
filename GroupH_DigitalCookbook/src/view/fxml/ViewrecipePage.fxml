@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="886.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EditrecipePage">
+   <children>
+      <Text layoutX="378.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hongshaorou" textAlignment="CENTER" wrappingWidth="366.240234375">
+         <font>
+            <Font name="Bodoni MT Black" size="31.0" />
+         </font>
+      </Text>
+      <TextField layoutX="970.0" layoutY="43.0" prefHeight="23.0" prefWidth="75.0" />
+      <Text layoutX="846.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Serve Amount:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="36.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredients:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="146.0" fitWidth="160.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../YangChen_JavaFX/pic/Pizza.jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="591.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Steps:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <MediaView fitHeight="450.0" fitWidth="800.0" layoutX="161.0" layoutY="416.0" preserveRatio="false" />
+      <TextArea editable="false" layoutX="36.0" layoutY="197.0" prefHeight="202.0" prefWidth="496.0" />
+      <TextArea editable="false" layoutX="591.0" layoutY="197.0" prefHeight="202.0" prefWidth="496.0" text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
